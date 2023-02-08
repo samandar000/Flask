@@ -12,7 +12,7 @@ def hello():
 
 @app.route("/home")
 def home():
-    return "Home page"
+    return "<h1>Home page</h1>"
 
 if __name__ == "__main__":
-    app.run(port=None)
+    app.run(port=None) 
