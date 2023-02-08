@@ -7,9 +7,9 @@ app = Flask(__name__)
 @app.route("/")
 def hello():
     return "<h1>Pardayev Samandar</h1>"
-# def hello():
-#     with open('index.html') as f:
-#         return f.read()    
+@app.route("/index")
+def hello():
+    return "<h1>HELLO WORLD</h1>"  
 
 @app.route("/home")
 def home():
@@ -17,3 +17,9 @@ def home():
 
 if __name__ == "__main__":
     app.run() 
+
+
+
+# def hello():
+#     with open('index.html') as f:
+#         return f.read()   
