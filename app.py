@@ -16,4 +16,4 @@ def home():
     return "<h1>Home page</h1>"
 
 if __name__ == "__main__":
-    app.run(port=None) 
+    app.run() 
