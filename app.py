@@ -6,9 +6,10 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    with open('index.html') as f:
-        return f.read()
-    
+    return "<h1>Pardayev Samandar</h1>"
+# def hello():
+#     with open('index.html') as f:
+#         return f.read()    
 
 @app.route("/home")
 def home():
